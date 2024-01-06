@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Q & A</title>
+  <link rel="stylesheet" href="q&a.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+<main>
+
+  <div class="slider">
+
+    <div class="buttons">
+      <div class="previous"></div>
+      <div class="next"></div>
+    </div>
+    <br>
+    <div class="slide">
+      <div class="testimonial">
+        <blockquote>which is good cibil score?<br><br><span>If you have 649+ credit score, it will be considered as good credit score</span></blockquote>
+        <p class="author">Palani Bharathi
+          <span>NetsaursBank(Manager)</span>
+        </p>
+      </div>
+
+      <div class="slider-img">
+        <img src="https://img.freepik.com/free-vector/pop-art-young-woman-cartoon_18591-52658.jpg" alt="Author Image">
+      </div>
+
+    </div>
+
+    <div class="slide">
+      <div class="testimonial">
+        <blockquote>what is the approval probability for the score 600-649?<br><br><span>Approval Probability will be very difficult for scores between 600-649</span></blockquote>
+        <p class="author">Jenny
+          <span>NetsaursBank(Chief Information Officer)</span>
+        </p>
+      </div>
+
+      <div class="slider-img">
+        <img src="https://img.freepik.com/free-vector/pop-art-fashion-beautiful-woman-cartoon_18591-52375.jpg" alt="Author Image">
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+<script src="q&a.js"></script>
+<script>
+    let docTitle = document.title;
+    window.addEventListener("blur", () => {
+        document.title = "Tab Switched :(";
+    });
+    window.addEventListener("focus", () => {
+        document.title =docTitle;
+    });
+</script>
+</body>
+</html>

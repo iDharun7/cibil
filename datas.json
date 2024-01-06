@@ -1,0 +1,19 @@
+{
+    "profiles": [
+        {
+            "id": "1",
+            "score": 90,
+            "comment": "good"
+        },
+        {
+            "id": "2",
+            "score": 60,
+            "comment": "ok"
+        },
+        {
+            "id": "3",
+            "score": 30,
+            "comment": "bad"
+        }
+    ]
+}
